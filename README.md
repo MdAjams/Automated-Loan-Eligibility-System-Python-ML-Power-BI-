@@ -73,7 +73,7 @@ In this project, we built a loan eligibility prediction model using Python libra
 
 2. **Model Training**  
    - Used the **Random Forest Classifier** from `sklearn.ensemble` to train the model on the processed training data.  
-   - Suppressed warnings with Python's `warnings` module to keep the output clean.
+   - Suppressed warnings with Python's `warnings` module to keep the output cleans.
 
 3. **Evaluation**  
    - Evaluated model accuracy on the training set using `accuracy_score` from `sklearn.metrics`.
