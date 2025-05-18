@@ -1,0 +1,18 @@
+Loan_Status,(All),,,,Row Labels,Count of Loan_Status,,,,,,
+,,,,,Rural,145,,,,,,
+Loan Status,Count of Loan_Status,,,,Semiurban,184,,,,,,
+0,67,,,,Urban,162,,,,,,
+1,381,,,,Grand Total,491,,,,,,
+(blank),43,,,,,,,,,,,
+Grand Total,491,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Row Labels,Sum of LoanAmount,,,,,Row Labels,Sum of ApplicantIncome,,,,Row Labels,Count of Loan_Status
+Female,10543,,,,,Graduate,2279399,,,,Female,87
+Male,56456,,,,,Not Graduate,435830,,,,Male,393
+(blank),2384,,,,,Grand Total,2715229,,,,(blank),11
+Grand Total,69383,,,,,,,,,,Grand Total,491
