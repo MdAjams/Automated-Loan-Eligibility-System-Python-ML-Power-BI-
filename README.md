@@ -12,31 +12,6 @@ This enables **faster**, **data-driven**, and more **consistent** loan approvals
 ---
 
 ## 📁 Project Structure
-loan-eligibility-prediction/
-│
-├── data/ # Dataset files
-│ ├── train.csv
-│ ├── test.csv
-│
-├── images/ # Visualizations & plots
-│ ├── eda_plot.png
-│ ├── feature_importance.png
-│ ├── dashboard.png
-│
-├── notebooks/ # Jupyter Notebooks
-│ ├── eda.ipynb
-│ ├── model_building.ipynb
-│
-├── models/ # Saved models
-│ └── loan_eligibility.pkl
-│
-├── submission/ # Output predictions
-│ └── submission.csv
-│
-├── loan_predict.py # Prediction script
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
 ---
 
 ## 📊 Dataset Description
@@ -81,7 +56,7 @@ Visual insights generated from `train.csv`
 
 ## 🧠 Model Building
 
-Steps followed in `notebooks/model_building.ipynb`:
+Steps followed in `notebooks/Real-Time Loan Eligibility Prediction.ipynb`:
 
 - Baseline model using **Logistic Regression** (with class weights)
 - Tree-based models: **Random Forest** and **XGBoost**
@@ -99,32 +74,12 @@ Steps followed in `notebooks/model_building.ipynb`:
 
 ### Usage:
 
-```bash
+bash
 python loan_predict.py
 
 📦 Requirements
 Install dependencies:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-Libraries used:
-pandas
-
-numpy
-
-matplotlib
-
-seaborn
-
-scikit-learn
-
-xgboost
-
-joblib
-
-shap
 
 ✅ Key Findings
 Credit_History is the most important feature.
@@ -147,9 +102,7 @@ Made with ❤️ by Md Ajam
 
 🔗 GitHub: MdAjams
 
-🌐 Portfolio: mdajams.github.io
 
-📧 Email: [your-email@example.com] (optional)
 
 
 
