@@ -60,10 +60,29 @@ Visual insights generated from `train.csv`
 
 Steps followed in `notebooks/Real-Time Loan Eligibility Prediction.ipynb`:
 
-- Baseline model using **Logistic Regression** (with class weights)
-- Tree-based models: **Random Forest** and **XGBoost**
-- Hyperparameter tuning with **GridSearchCV**
-- Final model selection based on **F1 Score**
+## 🧠 Model Building
+
+In this project, we built a loan eligibility prediction model using Python libraries like **pandas**, **numpy**, and **scikit-learn**.
+
+### Steps:
+
+1. **Data Preprocessing**  
+   - Loaded the training and test datasets using `pandas`.  
+   - Converted categorical variables into numbers using `LabelEncoder` for easy processing by the model.
+
+2. **Model Training**  
+   - Used the **Random Forest Classifier** from `sklearn.ensemble` to train the model on the processed training data.  
+   - Suppressed warnings with Python's `warnings` module to keep the output clean.
+
+3. **Evaluation**  
+   - Evaluated model accuracy on the training set using `accuracy_score` from `sklearn.metrics`.
+
+4. **Model Saving**  
+   - The trained model is saved for future predictions.
+
+This approach ensures the model can accurately predict loan eligibility based on applicant details, making loan approvals faster and more consistent.
+
+---
 
 🏆 **Final Model**: `RandomForestClassifier`  
 💾 Saved as: `models/loan_eligibility.pkl`
