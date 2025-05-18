@@ -47,7 +47,7 @@ Visual insights generated from `train.csv`
 ![EDA](images/eda_plot.png)
 
 📷 **Feature Importance**  
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/property_area_distribution.png)
 
 📷 **Dashboard (Excel / Power BI)**  
 ![Dashboard](images/dashboard.png)
