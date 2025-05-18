@@ -1,4 +1,6 @@
 # 🏦 Real-Time Loan Eligibility Prediction
+![Loan Logo](images/Real-Time-Loan-Eligibility-Prediction.png)
+
 
 Automating loan eligibility decisions for Dream Housing Finance using **Machine Learning** & **Exploratory Data Analysis**.
 
@@ -77,28 +79,24 @@ Steps followed in `notebooks/Real-Time Loan Eligibility Prediction.ipynb`:
 bash
 python loan_predict.py
 
-📦 Requirements
+### 📦 Requirements
 Install dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-✅ Key Findings
-Credit_History is the most important feature.
 
-High ApplicantIncome to LoanAmount ratio improves chances.
+### ✅ Key Findings
+- Credit_History is the most important feature.
+- High ApplicantIncome to LoanAmount ratio improves chances.
+- Married graduates from semi-urban areas had higher approval rates.
+- Final model achieved 80%+ accuracy on validation set.
 
-Married graduates from semi-urban areas had higher approval rates.
+### 💡 Recommendations
+- Auto-approve applicants with strong credit history and good income-to-loan ratios.
+- Use model confidence scores for risk-based decision making.
+- Retrain model periodically with new data to improve performance.
 
-Final model achieved 80%+ accuracy on validation set.
-
-💡 Recommendations
-Auto-approve applicants with strong credit history and good income-to-loan ratios.
-
-Use model confidence scores for risk-based decision making.
-
-Retrain model periodically with new data to improve performance.
-
-🙋‍♂️ Author
-Made with ❤️ by Md Ajam
+### 🙋‍♂️ Author
+- Made with ❤️ by Md Ajam
 
 🔗 GitHub: MdAjams
 
