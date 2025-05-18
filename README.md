@@ -1,4 +1,4 @@
-# 🏦 Real-Time Loan Eligibility Prediction
+# 🏦 Real-Time Loan Eligibility Prediction.
 ![Loan Logo](images/Real-Time-Loan-Eligibility-Prediction.png)
 
 
