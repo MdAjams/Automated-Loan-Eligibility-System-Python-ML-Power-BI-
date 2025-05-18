@@ -85,7 +85,7 @@ This approach ensures the model can accurately predict loan eligibility based on
 ---
 
 🏆 **Final Model**: `RandomForestClassifier`  
-💾 Saved as: `models/loan_eligibility.pkl`
+💾 Saved as: `Models/loan_eligibility.pkl`
 
 ---
 
@@ -96,7 +96,7 @@ This approach ensures the model can accurately predict loan eligibility based on
 ### Usage:
 
 bash
-python loan_predict.py
+`Real-Time Loan Eligibility Prediction.ipynb`
 
 ### 📦 Requirements
 Install dependencies:
