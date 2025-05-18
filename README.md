@@ -114,11 +114,12 @@ Install dependencies:
 - Use model confidence scores for risk-based decision making.
 - Retrain model periodically with new data to improve performance.
 
-### 🙋‍♂️ Author
-- Made with ❤️ by Md Ajam
+## 👥 Contributors
 
-🔗 GitHub: MdAjams
+- **Ajam Ali** – Project Lead, Data Preprocessing, Feature Engineering, Model Development, Documentation  
+- **Akash Singh Rathour** – Dashboard Design & Visualization  
 
+We collaborated closely to bring this project to life, ensuring strong insights, automation, and impactful visuals.
 
 
 
