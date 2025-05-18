@@ -52,7 +52,8 @@ Visual insights generated from `train.csv`
 ![Feature Importance](images/property_area_distribution.png)
 
 📷 **Dashboard (Excel / Power BI)**  
-![Dashboard](images/dashboard.png)
+![Dashboard](images/Dashboard.jpg)
+![Dashboard](images/DashboardPart-2.jpg)
 
 ---
 
